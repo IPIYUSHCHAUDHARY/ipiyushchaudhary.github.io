@@ -369,6 +369,7 @@ header .landing-social-links a:hover{
 }
 
 .resume .resume-item h4 a i {
+    display: inline-block;
     transition: 0.3s;
 }
 
@@ -377,8 +378,8 @@ header .landing-social-links a:hover{
 }
 
 .resume .resume-item h4 a:hover i {
-    padding-left: 4px;
- }
+    transform: translateX(4px);
+}
 
 .resume .tag {
     display: inline-block;
@@ -507,6 +508,7 @@ header .landing-social-links a:hover{
     top: 0;
     left: 0;
     background: var(--bs-primary);
+    background: linear-gradient(0deg, var(--bs-primary) 0%, var(--bs-primary) 60%, transparent 61%, transparent 100%);
     opacity: 50%;
     transition: 0.3s;
 }
@@ -781,7 +783,7 @@ header .landing-social-links a:hover{
     }
 
     .projects .feature-project .project-cover a:hover::after {
-        background: none;
+        opacity: 0;
     }
 }
 
