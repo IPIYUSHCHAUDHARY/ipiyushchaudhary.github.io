@@ -46,7 +46,7 @@ export default function Header() {
                     </button>
                     <div className="navbar-collapse collapse" id="mainNav">
                         <ul className="navbar-nav justify-content-end gap-4 ">
-                            <li><a href="#home" className={"nav-link" + ( isActive === 'home' ? ' active' : '')} data-target="home">Home</a></li>
+                            <li><a href="#" className={"nav-link" + ( isActive === 'home' ? ' active' : '')} data-target="home">Home</a></li>
                             <li><a href="#about" className={"nav-link" + ( isActive === 'about' ? ' active' : '')} data-target="about">About</a></li>
                             <li><a href="#resume" className={"nav-link" + ( isActive === 'resume' ? ' active' : '')} data-target="resume">Resume</a></li>
                             <li><a href="#projects" className={"nav-link" + ( isActive === 'projects' ? ' active' : '')} data-target="projects">Projects</a></li>
