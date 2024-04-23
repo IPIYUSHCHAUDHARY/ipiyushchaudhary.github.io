@@ -84,7 +84,7 @@ export const featureProjectsDetails = [
         },
         coverImg: featureCover1
     },
-    {
+    /*{
         title: "Edge Dashboard",
         summary: "This web dashboard project aims to deliver a desktop-oriented solution that empowers users with advanced data management capabilities, leveraging HTML, CSS, JavaScript, and the DataTables library.",
         stack: ["HTML5", "CSS3", "JavaScript", "DataTables"],
@@ -93,7 +93,7 @@ export const featureProjectsDetails = [
             code: "https://github.com/ipiyushchaudhary/edge-dashboard"
         },
         coverImg: featureCover2
-    }
+    }*/
 ];
 
 export const projectsDetails = [
@@ -106,7 +106,7 @@ export const projectsDetails = [
             code: "https://github.com/ipiyushchaudhary/Food4you"
         }
     },
-    {
+    /*{
         title: "Stacks Fiscal v2",
         summary: "This Admin Dashboard aims to deliver a responsive, visually appealing, and feature-rich interface by utilizing HTML, CSS, JavaScript, and the Highcharts library. The focus is on creating a powerful tool that simplifies data analysis and decision-making, enhancing the overall efficiency of administrative tasks.",
         stack: ["HTML5", "CSS3", "JavaScript", "HighChart"],
@@ -132,7 +132,7 @@ export const projectsDetails = [
             live: "https://ipiyushchaudhary.github.io/upload-panel",
             code: "https://github.com/ipiyushchaudhary/upload-panel"
         }
-    },
+    },*/
     {
         title: "Hotel",
         summary: "This Fully Responsive Hotel Single Web Page project aims to provide an immersive and convenient experience for potential guests, combining HTML, CSS, and JavaScript to showcase the hotel's offerings and encourage bookings.",
