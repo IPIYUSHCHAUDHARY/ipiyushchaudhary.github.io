@@ -27,7 +27,7 @@ export default function Resume() {
                     <div className="col-md-6">
                         <div className="resume-sec">
                             <h3 className="resume-title">Summary</h3>
-                            <p className="fst-italic">Innovative, task-driven Frontend Developer with 3 years of experience in developing and implementing engaging user interfaces. Proficient in HTML, CSS, and JavaScript, with a strong focus on responsive web development, cross-browser compatibility, and performance enhancement.</p>
+                            <p className="fst-italic">Results-driven <strong>UI Developer with 4+ years of experience</strong> building modern, scalable web applications using React, JavaScript (ES6+), and TypeScript. Skilled in developing responsive, accessible, and performance-optimized user interfaces with strong attention to code quality and maintainability. Experienced in collaborating with cross-functional teams to deliver intuitive digital experiences. Passionate about crafting clean UI architectures and continuously improving user experience through modern frontend technologies.</p>
                         </div>
                         <div className="resume-sec">
                             <h3 className="resume-title">Education & Certifications</h3>
