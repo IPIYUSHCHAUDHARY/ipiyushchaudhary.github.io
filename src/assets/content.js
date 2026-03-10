@@ -5,35 +5,35 @@ export const expertiseDetails = ['Frontend Development', 'UI & UX Design', 'Resp
 
 export const skillDetails = [
     {
-        label: "HTML",
+        label: "HTML5",
         value: 95,
         ariaLabel: "html"
     },
     {
-        label: "CSS & Preprocessor",
+        label: "CSS & Preprocessors",
         value: 90,
         ariaLabel: "css"
     },
     {
-        label: "Javascript",
+        label: "Javascript & Frameworks",
         value: 75,
         ariaLabel: "javascript"
     },
     {
-        label: "jQuery",
-        value: 60,
-        ariaLabel: "jquery"
-    },
-    {
-        label: "Bootstrap",
+        label: "CSS Frameworks",
         value: 80,
-        ariaLabel: "bootstrap"
+        ariaLabel: "css frameworks"
     },
     {
         label: "UX & UI Design",
-        value: 75,
+        value: 95,
         ariaLabel: "UI Design"
-    }
+    },
+    {
+        label: "Git",
+        value: 80,
+        ariaLabel: "git"
+    },
 ];
 
 export const educationDetails = [
@@ -56,20 +56,20 @@ export const educationDetails = [
     }
 ];
 
-export const techStackDetails = ['HTML', 'HTML5', 'CSS', 'CSS3', 'CSS FLEX', 'Flexbox', 'CSS GRID', 'SCSS', 'JavaScript', 'jQuery', 'Bootstrap', 'Figma', 'XD', 'Git', 'Github', 'React', 'Adobe Target', 'Agile', 'Scrum', 'DOM manipulation', 'Responsive web design', 'Cross-browser compatibility', 'Site troubleshooting', 'Performance optimization'];
+export const techStackDetails = ['HTML', 'HTML5', 'CSS', 'CSS3', 'CSS FLEX', 'Flexbox', 'CSS GRID', 'SASS', 'SCSS', 'JavaScript', 'TypeScript', 'jQuery', 'Bootstrap', 'Tailwind CSS', 'Figma', 'XD', 'Git', 'Github', 'React', 'Angular', 'Razor UI', 'Asp.Net', 'Adobe Target', 'Agile', 'Scrum', 'DOM manipulation', 'Responsive web design', 'Web Accessibility (WCAG)', 'Cross-browser compatibility', 'Site troubleshooting', 'Performance optimization'];
 
 export const experienceDetails = [
     {
-        head: "Frontend Developer",
-        subHead: "Sandvok Softwares",
-        tag: "2021 - Present",
-        roles: ["Implemented HTML, CSS, and JavaScript to create visually appealing and interactive user interfaces, resulting in a 15% increase in user engagement and a 10% decrease in bounce rate.", "Ensured cross-browser compatibility by employing best practices and conducting thorough testing across multiple browsers and devices, achieving a 99% compatibility rate.", "Identified and resolved frontend bugs and issues, resulting in a 20% reduction in frontend problems.", "Optimized website performance through efficient coding practices, including minification and compression techniques, resulting in a 30% improvement in load times and a 25% increase in page speed score.", "Actively participated in code reviews, providing constructive feedback and suggestions to enhance code quality and maintainability, resulting in a 15% decrease in code-related bugs.", "Actively engaged in project planning and estimation, providing valuable insights into frontend development efforts and timelines, resulting in a 95% accuracy rate in project completion estimations and a 20% increase in project delivery efficiency."]
+        head: "Software Engineer",
+        subHead: "BLJ Tech Geeks",
+        tag: "2024 - Present",
+        roles: ["Developed robust web-client user interfaces by leveraging coding and design expertise.", "Improved UI performance and usability through efficient component architecture and code optimization.", "Ensured consistency with design systems while maintaining accessibility and cross-browser compatibility."]
     },
     {
-        head: "Web Developer",
-        subHead: "Phoenix Arts",
-        tag: "2020 - 2021",
-        roles: ["Maintain and improve the aesthetic and functionality of client's websites.", "Translated wireframes and mockups into fully functional web pages, delivering projects with a 98% accuracy rate.", "Designed banners and posters for businesses, resulting in a 20% increase in brand visibility and a 25% improvement in customer engagement."]
+        head: "Frontend Developer",
+        subHead: "Sandvok Softwares",
+        tag: "2021 - 2024",
+        roles: ["Developed and maintained responsive web applications using React, Angular, JavaScript, and TypeScript." ,"Implemented modular frontend architecture to improve application scalability and maintainability.", "Conducted code reviews and enforced best practices to maintain high code quality standards.", "Collaborated with UX teams to refine user flows and improve user engagement.", "Diagnosed and resolved UI issues to enhance performance and user experience."]
     }
 ];
 
@@ -79,67 +79,30 @@ export const featureProjectsDetails = [
         summary: "This redesign project aims to not only enhance the visual appeal of the website but also to improve user engagement through a responsive and user-friendly design.",
         stack: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery"],
         links: {
-            live: "https://ipiyushchaudhary.github.io/Theshadehome",
-            code: "https://github.com/ipiyushchaudhary/Theshadehome"
+            live: "https://theshadehome.com/",
+            code: "#"
         },
         coverImg: featureCover1
-    },
-    {
-        title: "Edge Dashboard",
-        summary: "This web dashboard project aims to deliver a desktop-oriented solution that empowers users with advanced data management capabilities, leveraging HTML, CSS, JavaScript, and the DataTables library.",
-        stack: ["HTML5", "CSS3", "JavaScript", "DataTables"],
-        links: {
-            live: "https://ipiyushchaudhary.github.io/edge-dashboard",
-            code: "https://github.com/ipiyushchaudhary/edge-dashboard"
-        },
-        coverImg: featureCover2
     }
 ];
 
 export const projectsDetails = [
     {
-        title: "Food4you",
-        summary: "This Fully Responsive HTML5 Food Website project aims to deliver a visually appealing and user-friendly online presence for a food business, combining HTML5, CSS, and Bootstrap v4.6 to create a seamless and delightful experience for visitors on all devices.",
-        stack: ["HTML5", "CSS3", "JavaScript"],
+        title: "Radancy",
+        summary: "Developed and maintained enterprise career websites on the Radancy platform, implementing responsive, accessible, and high-performance UI components with WCAG-compliant design.",
+        stack: ["HTML5", "CSS3", "SASS", "JavaScript", "jQuery", "WCAG"],
         links: {
-            live: "https://ipiyushchaudhary.github.io/Food4you",
-            code: "https://github.com/ipiyushchaudhary/Food4you"
+            live: "#",
+            code: "#"
         }
     },
     {
-        title: "Stacks Fiscal v2",
-        summary: "This Admin Dashboard aims to deliver a responsive, visually appealing, and feature-rich interface by utilizing HTML, CSS, JavaScript, and the Highcharts library. The focus is on creating a powerful tool that simplifies data analysis and decision-making, enhancing the overall efficiency of administrative tasks.",
-        stack: ["HTML5", "CSS3", "JavaScript", "HighChart"],
+        title: "Good Furs",
+        summary: "Developed responsive, pixel-perfect UI components using HTML5, CSS3, JavaScript, and modern frontend frameworks, translating Figma designs into reusable components to improve maintainability and development efficiency.",
+        stack: ["HTML5", "CSS3", "React", "Tailwind CSS" ],
         links: {
-            live: "https://ipiyushchaudhary.github.io/stacks-fiscal-v2",
-            code: "https://github.com/ipiyushchaudhary/stacks-fiscal-v2"
-        }
-    },
-    {
-        title: "Stacks Fiscal v1",
-        summary: "This Admin Dashboard aims to deliver a responsive, visually appealing, and feature-rich interface by utilizing HTML, CSS, JavaScript, and the Highcharts library. The focus is on creating a powerful tool that simplifies data analysis and decision-making, enhancing the overall efficiency of administrative tasks.",
-        stack: ["HTML5", "CSS3", "JavaScript", "HighChart"],
-        links: {
-            live: "https://ipiyushchaudhary.github.io/stacks-fiscal-v1",
-            code: "https://github.com/ipiyushchaudhary/stacks-fiscal-v1"
-        }
-    },
-    {
-        title: "Upload Panel",
-        summary: "This small-scale Upload Panel project aims to provide a simple and effective solution for file uploads, leveraging HTML, CSS, and JavaScript.",
-        stack: ["HTML5", "CSS3", "JavaScript"],
-        links: {
-            live: "https://ipiyushchaudhary.github.io/upload-panel",
-            code: "https://github.com/ipiyushchaudhary/upload-panel"
-        }
-    },
-    {
-        title: "Hotel",
-        summary: "This Fully Responsive Hotel Single Web Page project aims to provide an immersive and convenient experience for potential guests, combining HTML, CSS, and JavaScript to showcase the hotel's offerings and encourage bookings.",
-        stack: ["HTML5", "CSS3", "JavaScript"],
-        links: {
-            live: "https://ipiyushchaudhary.github.io/Hotel",
-            code: "https://github.com/ipiyushchaudhary/Hotel"
+            live: "https://goodfurs.in/",
+            code: "#"
         }
     }
 ];

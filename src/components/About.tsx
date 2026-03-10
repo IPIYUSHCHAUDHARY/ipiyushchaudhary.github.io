@@ -21,7 +21,7 @@ export default function About() {
                     </div>
                     <div className="col-sm-8">
                         <h3 className="mt-sm-0 mt-3 about-role">Frontend UI Developer</h3>
-                        <p className="about-summary"><i>Innovative, task-driven professional with <strong>3 years of experience</strong> in frontend development across diverse industries. Proficient in creating user interfaces, writing and testing codes, troubleshooting issues, and implementing new features based on user feedback.</i></p>
+                        <p className="about-summary"><i>Innovative, task-driven professional with <strong>4+ years of experience</strong> in frontend development across diverse industries. Proficient in creating user interfaces, writing and testing codes, troubleshooting issues, and implementing new features based on user feedback.</i></p>
                         <p className="about-summary"><i>Here are a few areas in which I've expertise:</i></p>
                         <div className="row about-details">
 
